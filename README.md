@@ -10,57 +10,43 @@ Traditional methods of identifying phishing websites rely heavily on user awaren
 The application offers a simple interface where users can enter a URL and instantly receive a classification result. Additional features such as a detection history log, dark mode toggle, and sidebar navigation enhance usability. WebHawk is deployed on the Render platform, making it accessible online for real-time usage.
 
 ## Features
-Real-time detection of fake and phishing websites
-
-URL classification as LEGITIMATE or PHISHING
-
-Uses domain extraction and string similarity analysis
-
-Detection history (stores up to the last 5 checked URLs)
-
-User-friendly Flask-based web interface
-
-Dark mode toggle for better user experience
-
-Sidebar navigation with Home and About pages
-
-Lightweight and fast response time
-
-Deployed as a web application using Render
+1. Real-time detection of fake and phishing websites
+2. URL classification as LEGITIMATE or PHISHING
+3.  Uses domain extraction and string similarity analysis
+4. Detection history (stores up to the last 5 checked URLs)
+5. User-friendly Flask-based web interface
+6. Dark mode toggle for better user experience
+7. Sidebar navigation with Home and About pages
+8. Lightweight and fast response time
+9. Deployed as a web application using Render
 
 ## Requirements
-Operating System:
+### Operating System:
 Requires a 64-bit Operating System (Windows 10 / Ubuntu / macOS)
 
-Programming Language:
+### Programming Language:
 Python 3.8 or later
 
-Web Framework:
+### Web Framework:
 Flask (for backend development)
 
-Libraries & Dependencies:
-
+### Libraries & Dependencies:
 Flask
-
 tldextract (domain extraction)
-
 python-Levenshtein (string similarity computation)
-
 gunicorn (production server for deployment)
-
 Development Environment:
 Visual Studio Code (VS Code)
 
-Version Control:
+### Version Control:
 Git for source code management
 
-Deployment Platform:
+### Deployment Platform:
 Render (for hosting the Flask web application)
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f89acd8c-2587-4e3c-9b7b-68314ca6e644" />
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
 ## Output
