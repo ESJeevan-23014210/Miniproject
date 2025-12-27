@@ -1,5 +1,5 @@
 ## Title of the Project
-WebHawk (Eyes on Every Link)
+### WebHawk (Eyes on Every Link)
 WebHawk is a web-based phishing and fake website detection system developed using Flask that helps users verify the authenticity of URLs in real time. The system analyzes user-provided links using multiple heuristics and string similarity techniques to classify websites as LEGITIMATE or PHISHING, thereby enhancing user safety and awareness while browsing the internet.
 
 ## About
