@@ -1,28 +1,61 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+WebHawk (Eyes on Every Link)
+WebHawk is a web-based phishing and fake website detection system developed using Flask that helps users verify the authenticity of URLs in real time. The system analyzes user-provided links using multiple heuristics and string similarity techniques to classify websites as LEGITIMATE or PHISHING, thereby enhancing user safety and awareness while browsing the internet.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+WebHawk (Eyes on Every Link) is a Flask-based web application designed to detect fake and phishing websites by analyzing suspicious patterns in URLs. With the increasing number of cyberattacks and phishing attempts, users often fall victim to malicious websites that imitate legitimate platforms to steal sensitive information.
+
+Traditional methods of identifying phishing websites rely heavily on user awareness and manual inspection, which can be unreliable and time-consuming. WebHawk addresses this issue by providing an automated and user-friendly solution that evaluates URLs using domain analysis, lexical features, and string similarity techniques such as Levenshtein distance and domain extraction.
+
+The application offers a simple interface where users can enter a URL and instantly receive a classification result. Additional features such as a detection history log, dark mode toggle, and sidebar navigation enhance usability. WebHawk is deployed on the Render platform, making it accessible online for real-time usage.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Real-time detection of fake and phishing websites
+
+URL classification as LEGITIMATE or PHISHING
+
+Uses domain extraction and string similarity analysis
+
+Detection history (stores up to the last 5 checked URLs)
+
+User-friendly Flask-based web interface
+
+Dark mode toggle for better user experience
+
+Sidebar navigation with Home and About pages
+
+Lightweight and fast response time
+
+Deployed as a web application using Render
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Operating System:
+Requires a 64-bit Operating System (Windows 10 / Ubuntu / macOS)
+
+Programming Language:
+Python 3.8 or later
+
+Web Framework:
+Flask (for backend development)
+
+Libraries & Dependencies:
+
+Flask
+
+tldextract (domain extraction)
+
+python-Levenshtein (string similarity computation)
+
+gunicorn (production server for deployment)
+
+Development Environment:
+Visual Studio Code (VS Code)
+
+Version Control:
+Git for source code management
+
+Deployment Platform:
+Render (for hosting the Flask web application)
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
@@ -33,26 +66,29 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Legitimate
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1892" height="893" alt="image" src="https://github.com/user-attachments/assets/5bc677c0-a5fa-44f7-9964-4e3288c59563" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+#### Output2 - Phishing
+<img width="1893" height="902" alt="image" src="https://github.com/user-attachments/assets/762d2cbf-efa4-4e52-9ad8-02cac7982718" />
+
 
 Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The WebHawk phishing detection system significantly improves online safety by enabling users to quickly identify fake and phishing websites before interacting with them. By analyzing URL structures and domain characteristics, the system achieves a high detection accuracy of 96.7%, helping to reduce the risk of credential theft, financial fraud, and malicious cyberattacks.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The intuitive Flask-based web interface ensures ease of use for both technical and non-technical users, while features such as detection history and dark mode enhance overall user experience. WebHawk demonstrates the practical application of web security principles and string similarity analysis in real-world scenarios, highlighting its effectiveness as a lightweight yet reliable phishing detection solution.
+
+This project provides a strong foundation for future advancements in cybersecurity applications, including the integration of machine learning models, browser extensions, and real-time threat intelligence feeds. Ultimately, WebHawk contributes to building a safer and more secure digital ecosystem by promoting proactive phishing awareness and prevention.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. R. M. Mohammad, F. Thabtah, and L. McCluskey, “Predicting Phishing Websites Based on Self-Structuring Neural Network,” Neural Computing and Applications, vol. 25, no. 2, pp. 443–458, 2014.
+2. N. Abdelhamid, A. Ayesh, and F. Thabtah, “Phishing Detection Based on URL Features,” International Journal of Advanced Computer Science and Applications, vol. 5, no. 2, 2014.
+3. Anti-Phishing Working Group (APWG), “Phishing Activity Trends Report,” 2023.
 
 
 
